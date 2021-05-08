@@ -1,0 +1,38 @@
+.table.striped tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.table tr:first-child {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.table tr:first-child {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+.table tr td:first-child {
+  padding-left: 15px;
+}
+
+.table {
+  font-family: Tahoma,Segoe,Verdana,sans-serif;
+}
+
+.container-margin {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.result {
+  font-size: 30px;
+  color: #26a69a;
+}
+
+.btn-margin-left {
+  margin-left: 5px;
+}
+
+
+
+
