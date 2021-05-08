@@ -29,6 +29,10 @@ export class AppComponent {
   public clearIMC(): void {
     this.height.nativeElement.value = "";
     this.weight.nativeElement.value = "";
+    this.clearTable();
+  }
+
+  public clearTable(): void {
     this.result1.nativeElement.style.backgroundColor = "white";
     this.result1.nativeElement.style.color = "rgba(0,0,0,0.87)";
     this.result2.nativeElement.style.backgroundColor = "white";
@@ -44,7 +48,7 @@ export class AppComponent {
   }
 
   public showTable(imc): void {
-    this.clearIMC();
+    this.clearTable();
     if (imc <= 18.5) {
       this.result1.nativeElement.style.backgroundColor = "#2ab6a9";
       this.result1.nativeElement.style.color = "#f2f2f2";
